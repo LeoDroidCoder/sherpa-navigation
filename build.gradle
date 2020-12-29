@@ -24,4 +24,8 @@ allprojects {
         google()
         jcenter()
     }
+
+    tasks.withType(Javadoc).all {
+        enabled = false
+    }
 }
