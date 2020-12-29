@@ -1,0 +1,3 @@
+include ':sherpa'
+include ':app'
+rootProject.name = "sherpa-navigation"
